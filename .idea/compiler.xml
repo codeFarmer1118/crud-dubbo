@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="commons" />
+        <module name="crud-api" />
+        <module name="crud-controller" />
+        <module name="crud-dao" />
+        <module name="crud-pojo" />
+        <module name="crud-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="commons" target="1.8" />
+      <module name="crud-api" target="1.8" />
+      <module name="crud-controller" target="1.8" />
+      <module name="crud-dao" target="1.8" />
+      <module name="crud-dubbo" target="1.8" />
+      <module name="crud-pojo" target="1.8" />
+      <module name="crud-service" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

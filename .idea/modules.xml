@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/commons/commons.iml" filepath="$PROJECT_DIR$/commons/commons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/crud-api/crud-api.iml" filepath="$PROJECT_DIR$/crud-api/crud-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/crud-controller/crud-controller.iml" filepath="$PROJECT_DIR$/crud-controller/crud-controller.iml" />
+      <module fileurl="file://$PROJECT_DIR$/crud-dao/crud-dao.iml" filepath="$PROJECT_DIR$/crud-dao/crud-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/crud-dubbo.iml" filepath="$PROJECT_DIR$/crud-dubbo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/crud-pojo/crud-pojo.iml" filepath="$PROJECT_DIR$/crud-pojo/crud-pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/crud-service/crud-service.iml" filepath="$PROJECT_DIR$/crud-service/crud-service.iml" />
+    </modules>
+  </component>
+</project>

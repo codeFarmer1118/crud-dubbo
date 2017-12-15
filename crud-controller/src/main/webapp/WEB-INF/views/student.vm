@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+
+</head>
+<body class="hold-transition skin-blue sidebar-mini">
+
+<table border="1">
+    <thead>
+    <tr>
+        <th>id</th>
+        <th>name</th>
+        <th>age</th>
+        <th>score</th>
+    </tr>
+    </thead>
+    <tbody id="searchTbody">
+        <tr>
+            <td>$!stu.id</td>
+            <td>$!stu.name</td>
+            <td>$!stu.age</td>
+            <td>$!stu.score</td>
+        </tr>
+    </tbody>
+</table>
+
+名字：<input id="search_input" value="1">
+<button id="searchUserByName">查询</button>
+
+<script src="/static/jquery/jquery-2.2.3.min.js"></script>
+<!-- jQuery 2.2.3 -->
+<script>
+    $(function () {
+        $("#searchUserByName").click(function () {
+            var id = $("#search_input").val();
+            window.location.href = "/student/searchStudentById?id=" + id;
+        });
+    });
+</script>
+</body>
+</html>

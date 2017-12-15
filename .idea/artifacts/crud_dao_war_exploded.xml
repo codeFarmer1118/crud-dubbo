@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="crud-dao:war exploded">
+    <output-path>$PROJECT_DIR$/crud-dao/target/crud-dao</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="crud-dao" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/crud-dao/target/crud-dao/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="crud-dao/web/Web" />
+    </root>
+  </artifact>
+</component>

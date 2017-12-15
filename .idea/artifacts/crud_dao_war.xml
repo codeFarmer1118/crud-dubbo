@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="crud-dao:war">
+    <output-path>$PROJECT_DIR$/crud-dao/target</output-path>
+    <root id="archive" name="crud-dao.war">
+      <element id="artifact" artifact-name="crud-dao:war exploded" />
+    </root>
+  </artifact>
+</component>

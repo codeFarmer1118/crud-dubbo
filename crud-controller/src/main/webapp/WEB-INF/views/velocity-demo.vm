@@ -1,0 +1,23 @@
+<html>
+<body>
+<h2>Hello World!</h2>
+#set($list = [1,2,3])
+#foreach($li in $list)
+    $velocityCount
+    $li<br>
+#end
+
+#foreach($num in[1..-9])
+    $num<br>
+#end
+
+#* velocity中的宏使用，相当于函数，函数名name，形参为name（$name声明形参） *#
+#macro(name $name)
+    <h2>$name</h2>
+#end
+#*调用宏，既函数实参:张三*#
+#name("张三")
+
+<h1>$!stu.name</h1>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>crud-dubbo</artifactId>
+        <groupId>top.qilixiang</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>crud-pojo</artifactId>
+    <packaging>jar</packaging>
+
+    <name>crud-pojo</name>
+    <url>http://maven.apache.org</url>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>${junit.version}</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <!--<plugin>
+                <artifactId>maven-jar-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>crud-pojo</id>
+                        <goals>
+                            &lt;!&ndash;包后缀&ndash;&gt;
+                            <goal>jar</goal>
+                        </goals>
+                        &lt;!&ndash;对应阶段&ndash;&gt;
+                        <phase>package</phase>
+                        <configuration>
+                            <outputDirectory>target</outputDirectory>
+                            &lt;!&ndash;标识&ndash;&gt;
+                            <classifier>crud-pojo</classifier>
+                            <includes>
+                                <include>top/qilixiang/entity/*.class</include>
+                            </includes>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>-->
+        </plugins>
+    </build>
+</project>
