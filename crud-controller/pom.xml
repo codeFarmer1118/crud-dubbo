@@ -55,20 +55,15 @@
     </dependencies>
     <build>
         <finalName>crud-controller</finalName>
-
-        <plugins>
-            <!-- 配置Tomcat插件 -->
-            <plugin>
-                <groupId>org.apache.tomcat.maven</groupId>
-                <artifactId>tomcat7-maven-plugin</artifactId>
-                <configuration>
-                    <path>/manager-web</path>
-                    <port>8080</port>
-                    <url>http://192.168.144.132:8080/manager/text</url>
-                    <username>tomcat</username>
-                    <password>tomcat</password>
-                </configuration>
-            </plugin>
-        </plugins>
+        <resources>
+            <resource>
+                <targetPath>${project.build.directory}/classes</targetPath>
+                <directory>src/main/resources</directory>
+                <filtering>true</filtering>
+                <includes>
+                    <include>**/*</include>
+                </includes>
+            </resource>
+        </resources>
     </build>
 </project>

@@ -12,7 +12,7 @@
 
     <!-- 引用dubbo服务 -->
     <!-- 在注册中心的应用的名称 -->
-    <dubbo:application name="demotest-consumer"/>
+    <dubbo:application name="crud-controller"/>
     <!-- 配置注册中心的相关信息 -->
     <dubbo:registry protocol="zookeeper" address="192.168.144.132:2181"/>
     <!-- 引用服务 -->
